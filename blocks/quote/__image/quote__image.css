@@ -1,0 +1,8 @@
+.quote__image {
+  width: 650px;
+  height: 460px;
+  object-fit: cover;
+  object-position: center;
+  grid-row: 1/4;
+  grid-column: 1;
+}

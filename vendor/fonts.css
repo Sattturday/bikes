@@ -37,15 +37,15 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('../fonts/inter_semi_bold.eot'),
+  src: url('../vendor/fonts/inter_semi_bold.eot'),
     /* IE 9 Compatibility Mode */
-    url('../fonts/inter_semi_bold.eot?#iefix') format('embedded-opentype'),
+    url('../vendor/fonts/inter_semi_bold.eot?#iefix') format('embedded-opentype'),
     /* IE < 9 */
-    url('../fonts/inter_semi_bold.woff2') format('woff2'),
+    url('../vendor/fonts/inter_semi_bold.woff2') format('woff2'),
     /* Super Modern Browsers */
-    url('../fonts/inter_semi_bold.woff') format('woff'),
+    url('../vendor/fonts/inter_semi_bold.woff') format('woff'),
     /* Firefox >= 3.6, any other modern browser */
-    url('../fonts/inter_semi_bold.ttf') format('truetype');
+    url('../vendor/fonts/inter_semi_bold.ttf') format('truetype');
   /* Safari, Android, iOS */
 }
 
