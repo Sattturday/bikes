@@ -1,8 +1,12 @@
 .quote__image {
-  width: 650px;
-  height: 460px;
-  object-fit: cover;
-  object-position: center;
+  width: 100%;
   grid-row: 1/4;
   grid-column: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .quote__image {
+    padding-top: 20px;
+    border-top: 1px solid #E3E3E3;
+  }
 }

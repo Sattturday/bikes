@@ -9,7 +9,7 @@
     /* IE < 9 */
     url('../vendor/fonts/inter_regular.woff2') format('woff2'),
     /* Super Modern Browsers */
-    url('../vendor/fonts/inter_regular.woff') format('woff'),
+    url('../vendor/fonts/inter_regular.woff2') format('woff'),
     /* Firefox >= 3.6, any other modern browser */
     url('../vendor/fonts/inter_regular.ttf') format('truetype');
   /* Safari, Android, iOS */
