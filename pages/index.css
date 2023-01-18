@@ -8,3 +8,13 @@
 @import url(../blocks/quote/__text/quote__text.css);
 @import url(../blocks/quote/__author/quote__author.css);
 @import url(../blocks/quote/__author-subline/quote__author-subline.css);
+@import url(../blocks/trails/trails.css);
+@import url(../blocks/trails/__title/trails__title.css);
+@import url(../blocks/trails/__text/trails__text.css);
+@import url(../blocks/trails/__slider/trails__slider.css);
+@import url(../blocks/trails/__sticker/trials__sticker.css);
+@import url(../blocks/trails/__image/trails__image.css);
+@import url(../blocks/trails/__buttons-container/trails__buttons-container.css);
+@import url(../blocks/trails/__button/trails__button.css);
+@import url(../blocks/trails/__button/_left/trails__button_left.css);
+@import url(../blocks/trails/__button/_right/trails__button_right.css);
