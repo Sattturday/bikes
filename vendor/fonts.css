@@ -48,20 +48,3 @@
     url('../vendor/fonts/inter_semi_bold.ttf') format('truetype');
   /* Safari, Android, iOS */
 }
-
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url('../vendor/fonts/inter_black.eot'),
-    /* IE 9 Compatibility Mode */
-    url('../vendor/fonts/inter_black.eot?#iefix') format('embedded-opentype'),
-    /* IE < 9 */
-    url('../vendor/fonts/inter_black.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('../vendor/fonts/inter_black.woff') format('woff'),
-    /* Firefox >= 3.6, any other modern browser */
-    url('../vendor/fonts/inter_black.ttf') format('truetype');
-  /* Safari, Android, iOS */
-}
