@@ -5,3 +5,9 @@
   font-weight: 600;
   line-height: 1.33;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__form-label {
+    padding-bottom: 40px;
+  }
+}
