@@ -52,6 +52,23 @@
 @font-face {
   font-family: 'Inter';
   font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../vendor/fonts/inter_bold.eot'),
+    /* IE 9 Compatibility Mode */
+    url('../vendor/fonts/Inter-Bold.otf') format('opentype'),
+    /* IE < 9 */
+    url('../vendor/fonts/Inter-Bold.woff') format('woff2'),
+    /* Super Modern Browsers */
+    url('../vendor/fonts/Inter-Bold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('../vendor/fonts/inter_black.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url('../vendor/fonts/inter_black.eot'),
