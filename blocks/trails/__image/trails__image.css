@@ -1,0 +1,6 @@
+.trails__image {
+  width: 650px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
