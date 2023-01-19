@@ -1,0 +1,40 @@
+.footer__form-email {
+  min-height: 50px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 2.15;
+  background-color: inherit;
+  padding-left: 20px;
+  border: 1px solid rgba(125, 125, 125, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer__form-email::-webkit-input-placeholder {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.footer__form-email::-moz-placeholder {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.footer__form-email::-ms-input-placeholder {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.footer__form-email::placeholder {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  color: #fff;
+  opacity: 0.5;
+}
