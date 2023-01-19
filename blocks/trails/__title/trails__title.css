@@ -5,3 +5,18 @@
   line-height: 1.09;
   letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 1023px) {
+  .trails__title {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .trails__title {
+    font-size: 32px;
+    line-height: 1.25;
+    grid-row: 1/2;
+    grid-column: 1;
+  }
+}

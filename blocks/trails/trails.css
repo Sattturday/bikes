@@ -2,3 +2,33 @@
   padding: 60px 0 60px 120px;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1279px) {
+  .trails {
+    padding: 60px 0 60px 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .trails {
+    padding: 60px 0 60px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .trails {
+    margin: 40px 40px;
+    padding: 40px 0;
+    border-top: 1px solid #E3E3E3;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .trails {
+    margin: 40px 18px 0;
+  }
+}

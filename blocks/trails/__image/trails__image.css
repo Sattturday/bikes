@@ -1,6 +1,26 @@
 .trails__image {
-  width: 650px;
-  height: 400px;
+  width: calc((100% - 20px) / 2);
+  aspect-ratio: auto;
   object-fit: cover;
   object-position: center;
+}
+
+.trails__image:last-child {
+  display: block;
+}
+
+@media screen and (max-width: 1023px) {
+  .trails__image {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .trails__image {
+    width: 100%;
+  }
+
+  .trails__image:last-child {
+    display: none;
+  }
 }

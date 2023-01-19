@@ -1,5 +1,6 @@
 .trails__slider {
   padding-top: 82px;
+  max-width: calc(100% + 20px);
   display: flex;
   gap: 40px;
   position: relative;
@@ -10,9 +11,38 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: 20px;
+  bottom: 16px;
   background-image: url(../../../images/trails/slider-sticker.svg);
   width: 100px;
   height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .trails__slider {
+    gap: 20px;
+    padding-top: 52px;
+  }
+
+  .trails__slider::before {
+    width: 85px;
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .trails__slider {
+    padding-top: 40px;
+    grid-row: 2/3;
+    grid-column: 1;
+  }
+
+  .trails__slider::before {
+    bottom: 14px;
+    width: 70px;
+    height: 28px;
+  }
 }

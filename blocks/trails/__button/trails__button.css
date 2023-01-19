@@ -10,3 +10,10 @@
 .trails__button:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 767px) {
+  .trails__button {
+    width: 24px;
+    height: 24px;
+  }
+}
