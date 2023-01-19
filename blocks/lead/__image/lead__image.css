@@ -1,7 +1,10 @@
 .lead__image {
-  max-width: 340px;
-  object-fit: cover;
+  max-width: 440px;
+  position: sticky;
+  top: 466px;
+  object-fit: contain;
   border-radius: 20px;
-  display: block;
-  margin: auto;
+  background-color: #f4f4f4;
+  padding: 20px 50px;
+  margin-bottom: 79px;
 }
