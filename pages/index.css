@@ -28,6 +28,11 @@
 @import url(../blocks/trails/__button/trails__button.css);
 @import url(../blocks/trails/__button/_left/trails__button_left.css);
 @import url(../blocks/trails/__button/_right/trails__button_right.css);
+
+@import url(../blocks/bicycles/bicycles.css);
+@import url(../blocks/bicycles/__list/bicycles__list.css);
+@import url(../blocks/bicycles/__container/bicycles__container.css);
+
 @import url(../blocks/practices/practices.css);
 @import url(../blocks/practices/__title/practices__title.css);
 @import url(../blocks/practices/__text/practices__text.css);
