@@ -4,6 +4,7 @@
   padding: 0;
   background-color: #333;
   color: #fff;
+  box-sizing: border-box;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   -moz-osx-font-smoothing: grayscale;
