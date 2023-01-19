@@ -1,5 +1,5 @@
 .practices {
-  padding: 120px 120px 60px;
+  padding: 120px 120px 120px;
   display: grid;
   grid-template-columns: auto 48%;
   grid-template-rows: 60px auto 34px;
@@ -8,14 +8,14 @@
 
 @media screen and (max-width: 1279px) {
   .practices {
-    padding: 120px 60px 60px;
+    padding: 120px 60px 120px;
     grid-template-rows: 60px auto 30px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .practices {
-    padding: 60px 40px;
+    padding: 120px 40px;
     grid-template-rows: 50px auto 20px;
     column-gap: 80px;
   }
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 767px) {
   .practices {
-    padding: 40px 40px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -32,6 +32,6 @@
 
 @media screen and (max-width: 424px) {
   .practices {
-    padding: 40px 18px;
+    padding: 40px 18px 60px;
   }
 }

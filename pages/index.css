@@ -36,3 +36,8 @@
 @import url(../blocks/practices/__links/practices__links.css);
 @import url(../blocks/practices/__link/practices__link.css);
 @import url(../blocks/practices/__image/practices__image.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__form-label/footer__form-label.css);
+@import url(../blocks/footer/__form-email/footer__form-email.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
