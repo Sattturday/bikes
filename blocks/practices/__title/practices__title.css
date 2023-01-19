@@ -1,0 +1,23 @@
+.practices__title {
+  margin: 0;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.09;
+  letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 1023px) {
+  .practices__title {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .practices__title {
+    font-size: 32px;
+    line-height: 1.25;
+    padding-top: 20px;
+    border-top: 1px solid #E3E3E3;
+    order: 1;
+  }
+}

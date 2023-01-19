@@ -1,0 +1,15 @@
+.practices__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .practices__links {
+    order: 4;
+    align-self: flex-start;
+  }
+}
