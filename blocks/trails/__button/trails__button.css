@@ -5,6 +5,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+  transition: opacity .2s linear;
 }
 
 .trails__button:hover {
