@@ -29,3 +29,9 @@
 @import url(../blocks/trails/__button/trails__button.css);
 @import url(../blocks/trails/__button/_left/trails__button_left.css);
 @import url(../blocks/trails/__button/_right/trails__button_right.css);
+@import url(../blocks/practices/practices.css);
+@import url(../blocks/practices/__title/practices__title.css);
+@import url(../blocks/practices/__text/practices__text.css);
+@import url(../blocks/practices/__links/practices__links.css);
+@import url(../blocks/practices/__link/practices__link.css);
+@import url(../blocks/practices/__image/practices__image.css);
