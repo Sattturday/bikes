@@ -1,5 +1,6 @@
 .lead {
-  display: flex;
-  gap: 250px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 610px);
+  column-gap: 250px;
   padding: 28px 0 0 120px;
 }
