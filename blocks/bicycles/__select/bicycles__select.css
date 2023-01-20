@@ -2,8 +2,9 @@
   display: none;
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
   .bicycles__select {
     display: block;
+    margin-left: 18px;
   }
 }
