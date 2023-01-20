@@ -10,5 +10,7 @@
 @media screen and (max-width: 767px) {
   .bicycles__image {
     max-width: 254px;
+    max-height: 254px;
+    padding: 0;
   }
 }

@@ -4,7 +4,15 @@
   padding-top: 120px;
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
+  .bicycles__container {
+    max-width: 284px;
+    margin: 0 auto;
+    padding-top: 33px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .bicycles__container:nth-of-type(n + 2) {
     display: none;
   }
