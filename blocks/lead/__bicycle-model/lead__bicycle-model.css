@@ -1,0 +1,6 @@
+.lead__bicycle-model {
+  padding-top: 170px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
