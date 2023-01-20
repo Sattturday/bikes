@@ -2,9 +2,17 @@
   max-width: 1440px;
   margin: 0;
   padding-top: 120px;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 767px) {
+  .bicycles__container:last-of-type {
+    max-width: 767px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 424px) {
   .bicycles__container {
     max-width: 284px;
     margin: 0 auto;
@@ -12,14 +20,8 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .bicycles__container:nth-of-type(n + 2) {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 424px) {
-  .bicycles__container:last-of-type {
+  .bicycles__container:nth-of-type(n + 2) {
     display: none;
   }
 }
