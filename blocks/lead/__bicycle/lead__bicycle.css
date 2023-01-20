@@ -1,0 +1,25 @@
+.lead__bicycle {
+  width: 95.5%;
+  position: sticky;
+  top: 347px;
+  border-radius: 20px;
+  margin-bottom: 79px;
+  transform: translateX(116%);
+  grid-row: 1;
+  grid-column: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__bicycle {
+    top: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__bicycle {
+    width: 82.3%;
+    top: 300px;
+    margin-bottom: 235px;
+    transform: translateX(0);
+  }
+}

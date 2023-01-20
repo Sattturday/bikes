@@ -1,7 +1,35 @@
 .lead {
-  max-width: 1320px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 46.2%;
+  grid-template-rows: 185px 207px auto 27.1%;
+  column-gap: 18.9%;
   padding: 20px 0 0 120px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    padding: 60px 0 60px 60px;
+    grid-template-rows: 185px 207px auto 15%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding: 60px 0 60px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    padding: 40px;
+    grid-template-columns: auto;
+    grid-template-rows: 80px repeat(3, auto);
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .lead {
+    padding: 40px 18px;
+  }
 }

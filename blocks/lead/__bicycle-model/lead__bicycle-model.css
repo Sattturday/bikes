@@ -1,6 +1,13 @@
 .lead__bicycle-model {
-  padding-top: 170px;
   display: flex;
   justify-content: flex-start;
   gap: 30px;
+  grid-row: 4/5;
+  grid-column: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__bicycle-model {
+    display: none;
+  }
 }
