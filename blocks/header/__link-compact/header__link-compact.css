@@ -1,0 +1,11 @@
+.header__link-compact {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .header__link-compact {
+    width: 22px;
+    height: 3px;
+    border-top: 3px solid #fff;
+  }
+}

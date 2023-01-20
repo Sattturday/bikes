@@ -1,34 +1,42 @@
 .lead__button {
-  display: block;
-  position: relative;
-  z-index: 1;
-  max-width: 180px;
-  width: 100%;
-  min-height: 50px;
-  margin: 0;
-  padding: 0;
+  width: 180px;
+  height: 50px;
   background-color: #24B47E;
   font-size: 14px;
-  line-height: 1.28;
+  line-height: 1.29;
   letter-spacing: 1px;
-  text-align: center;
   color: #FFF;
-  transition: .4s;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+  grid-row: 3/4;
+  grid-column: 1;
 }
 
 .lead__button:after {
-  position: absolute;
-  z-index: 0;
   content: "";
+  position: absolute;
+  z-index: -1;
   width: 0;
   height: 100%;
   top: 0;
   right: 0;
   background-color: #319E75;
+  border-radius: 4px;
   transition: all .4s ease;
 }
 
 .lead__button:hover:after {
   left: 0;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__button {
+    grid-row: 4;
+    width: 284px;
+    height: 46px;
+  }
 }

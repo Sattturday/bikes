@@ -1,9 +1,27 @@
 .lead__text {
   margin: 0;
-  padding: 50px 0 50px;
+  padding: 44px 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.55;
   color: #E6E6E6;
   opacity: .7;
+  grid-row: 2/3;
+  grid-column: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__text {
+    font-size: 15px;
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__text {
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    grid-row: 3;
+  }
 }
