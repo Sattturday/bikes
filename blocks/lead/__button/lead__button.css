@@ -1,59 +1,35 @@
 .lead__button {
+  display: block;
+  position: relative;
+  z-index: 1;
   max-width: 180px;
+  width: 100%;
+  min-height: 50px;
   margin: 0;
   padding: 0;
-  background-color: #319E75;
+  background-color: #24B47E;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: 1px;
   text-align: center;
   color: #FFF;
+  transition: .4s;
 }
 
-.lead__button:hover {
-  background-color: #4feac8;
-  transition: background-color 1000ms linear;
+.lead__button:after {
+  position: absolute;
+  z-index: 0;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #319E75;
+  border-radius: 5px;
+  transition: all .4s ease;
 }
 
-
-/* 
-.butt {
- border: 3px solid #218294;
- font-size: 30px;
- color: #218294;
- text-decoration: none;
- text-transform: uppercase;
- width: 250px;
- height: 60px;
- display: block;
- text-align: center;
- line-height: 60px;
- font-family: Arial, sans-serif;
- position: relative;
- transition: .5s;
- overflow: hidden;
-}
-.butt::before,
-.butt::after {
- position: absolute;
- content: '';
- width: 100%;
- height: 100%;
- background: #218294;
- top: 0;
- left: -100%;
- opacity: .5;
- transition: .3s;
- z-index: -1;
-}
-.butt::after {
- opacity: 1;
- transition-delay: .2s;
-}
-.butt:hover {
- color: #fff;
-}
-.butt:hover::before,
-.butt:hover::after {
- left: 0;
+.lead__button:hover:after {
+  left: 0;
+  width: 100%;
 }
