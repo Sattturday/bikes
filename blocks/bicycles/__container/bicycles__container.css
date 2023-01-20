@@ -17,3 +17,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 424px) {
+  .bicycles__container:last-of-type {
+    display: none;
+  }
+}
