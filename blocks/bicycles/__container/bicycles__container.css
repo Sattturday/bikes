@@ -1,7 +1,7 @@
 .bicycles__container {
   max-width: 1440px;
   margin: 0;
-  padding-top: 140px;
+  padding-top: 120px;
 }
 
 @media screen and (max-width: 424px) {
