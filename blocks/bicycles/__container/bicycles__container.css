@@ -1,5 +1,5 @@
 @media screen and (max-width: 424px) {
-  .bicycles__container:last-child(-n + 2) {
-    border-radius: red 1px solid;
+  .bicycles__container:nth-of-type(n + 2) {
+    display: none;
   }
 }
