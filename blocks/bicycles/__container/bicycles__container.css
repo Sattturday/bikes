@@ -1,3 +1,9 @@
+.bicycles__container {
+  max-width: 1440px;
+  margin: 0;
+  padding-top: 120px;
+}
+
 @media screen and (max-width: 424px) {
   .bicycles__container:nth-of-type(n + 2) {
     display: none;
