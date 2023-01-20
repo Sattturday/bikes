@@ -1,16 +1,17 @@
 .bicycles__image {
-  max-width: 340px;
-  max-height: 340px;
+  max-width: 380px;
   width: 100%;
-  padding: 20px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
   background-color: #F4F4F4;
   border-radius: 20px;
 }
 
 @media screen and (max-width: 767px) {
   .bicycles__image {
-    max-width: 254px;
-    max-height: 254px;
+    width: 284px;
+    height: 254px;
     padding: 0;
   }
 }

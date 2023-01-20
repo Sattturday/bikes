@@ -37,6 +37,7 @@
 @import url(../blocks/bicycles/__title/bicycles__title.css);
 @import url(../blocks/bicycles/__links/bicycles__links.css);
 @import url(../blocks/bicycles/__link/bicycles__link.css);
+@import url(../blocks/bicycles/__link/_activ/bicycles__link_activ.css);
 @import url(../blocks/bicycles/__select/bicycles__select.css);
 @import url(../blocks/bicycles/__option/bicycles__option.css);
 @import url(../blocks/bicycles/__list/bicycles__list.css);

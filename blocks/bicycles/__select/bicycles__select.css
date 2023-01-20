@@ -5,6 +5,7 @@
 @media screen and (max-width: 767px) {
   .bicycles__select {
     display: block;
-    margin-left: 18px;
+    width: 114px;
+    height: 30px;
   }
 }
