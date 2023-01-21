@@ -12,6 +12,6 @@
   .bicycles__image {
     width: 284px;
     height: 254px;
-    padding: 0;
+    padding-top: 15px;
   }
 }

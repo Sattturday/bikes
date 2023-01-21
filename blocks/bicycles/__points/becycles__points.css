@@ -1,0 +1,15 @@
+.bicycles__points {
+  display: none;
+  margin: 0;
+  color: #cacaca;
+  font-size: 30px;
+  line-height: .8;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 767px) {
+  .bicycles__points {
+    display: inline;
+  }
+}
