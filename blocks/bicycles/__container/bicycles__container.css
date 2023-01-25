@@ -2,26 +2,26 @@
   max-width: 1440px;
   margin: 0;
   padding-top: 120px;
-  flex-direction: row;
+}
+
+@media screen and (max-width: 1439px) {
+  .bicycles__container:nth-of-type(n + 3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .bicycles__container:nth-of-type(n + 2) {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .bicycles__container:last-of-type {
-    max-width: 767px;
-    display: none;
-  }
-}
-
-@media screen and (max-width: 424px) {
   .bicycles__container {
-    max-width: 284px;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 33px;
-  }
-}
-
-@media screen and (max-width: 424px) {
-  .bicycles__container:nth-of-type(n + 2) {
-    display: none;
+    padding-top: 0;
+    background-color: #f4f4f4;
+    border-radius: 20px;
   }
 }

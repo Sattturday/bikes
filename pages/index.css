@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/content/content.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link-compact/header__link-compact.css);
@@ -31,19 +30,20 @@
 @import url(../blocks/trails/__button/trails__button.css);
 @import url(../blocks/trails/__button/_left/trails__button_left.css);
 @import url(../blocks/trails/__button/_right/trails__button_right.css);
-
 @import url(../blocks/bicycles/bicycles.css);
 @import url(../blocks/bicycles/__head/bicycles__head.css);
 @import url(../blocks/bicycles/__title/bicycles__title.css);
 @import url(../blocks/bicycles/__links/bicycles__links.css);
 @import url(../blocks/bicycles/__link/bicycles__link.css);
+@import url(../blocks/bicycles/__link/_activ/bicycles__link_activ.css);
 @import url(../blocks/bicycles/__select/bicycles__select.css);
 @import url(../blocks/bicycles/__option/bicycles__option.css);
 @import url(../blocks/bicycles/__list/bicycles__list.css);
 @import url(../blocks/bicycles/__container/bicycles__container.css);
 @import url(../blocks/bicycles/__image/bicycles__image.css);
 @import url(../blocks/bicycles/__caption/bicycles__caption.css);
-
+@import url(../blocks/bicycles/__points/becycles__points.css);
+@import url(../blocks/bicycles/__points/_activ/becycles__points_activ.css);
 @import url(../blocks/practices/practices.css);
 @import url(../blocks/practices/__title/practices__title.css);
 @import url(../blocks/practices/__text/practices__text.css);

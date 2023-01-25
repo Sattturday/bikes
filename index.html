@@ -13,25 +13,27 @@
 
   <!-- Алла и Юлия -->
   <header class="header">
-    <ul class="header__links">
-      <li class="header__link-compact">
-        <a href="#" class="header__link">Покрытия и градиенты</a>
-      </li>
-      <li class="header__link-compact">
-        <a href="#" class="header__link">Велосипеды</a>
-      </li>
-      <li class="header__link-compact">
-        <a href="#" class="header__link">Тренировки</a>
-      </li>
-    </ul>
+    <nav>
+      <ul class="header__links">
+        <li class="header__link-compact">
+          <a href="#" class="header__link">Покрытия и градиенты</a>
+        </li>
+        <li class="header__link-compact">
+          <a href="#" class="header__link">Велосипеды</a>
+        </li>
+        <li class="header__link-compact">
+          <a href="#" class="header__link">Тренировки</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
-  <main class="content">
-    <!-- Секция первого экрана (с прилипающим велосипедом)---Алла и Юлия -->
+  <main>
+    <!-- Секция первого экрана ---Алла и Юлия -->
     <section class="lead">
       <h1 class="lead__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
-      <img src="./images/lead/forest.jpg" alt="Лесная дорога" class="lead__image">
-      <img src="./images/lead/bike-fix.jpg" alt="Горный велосипед" class="lead__bicycle">
+      <img src="./images/lead-forest.jpg" alt="Лесная дорога" class="lead__image">
+      <img src="./images/lead-bike-fix.jpg" alt="Горный велосипед" class="lead__bicycle">
       <p class="lead__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным
         маршрутам - нужно только определиться с выбором велосипеда и отправиться в путь.</p>
       <button class="lead__button">Подробнее</button>
@@ -44,8 +46,8 @@
     <!-- Секция с цитатой---Алла -->
     <section class="quote">
       <picture class="quote__image">
-        <source srcset="./images/quote/cyclist-s.jpg" media="(max-width: 424px)">
-        <img class="quote__image_size" src="./images/quote/cyclist-m.jpg" alt="Человек едет в горы на велосипеде">
+        <source srcset="./images/quote-cyclist-s.jpg" media="(max-width: 424px)">
+        <img class="quote__image_size" src="./images/quote-cyclist-m.jpg" alt="Человек едет в горы на велосипеде">
       </picture>
       <blockquote class="quote__text-container">
         <p class="quote__text">&laquo;Катайся много или мало, долго или коротко, как хочешь - но катайся&raquo;</p>
@@ -61,8 +63,8 @@
         будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно
         и самостоятельно.</p>
       <div class="trails__slider">
-        <img src="./images/trails/road-mountain.jpg" alt="Дорога в горы" class="trails__image">
-        <img src="./images/trails/road-forest.jpg" alt="Велосипедист в лесу" class="trails__image">
+        <img src="./images/trails-road-mountain.jpg" alt="Дорога в горы" class="trails__image">
+        <img src="./images/trails-road-forest.jpg" alt="Велосипедист в лесу" class="trails__image">
       </div>
       <div class="trails__buttons-container">
         <button type="button" class="trails__button trails__button_left"></button>
@@ -70,21 +72,23 @@
       </div>
     </section>
 
-    <!-- Секция Велосипеды---Юлия -->
+    <!-- Секция Велосипеды--- Юлия и Алла -->
     <section class="bicycles">
       <div class="bicycles__head">
         <h2 class="bicycles__title">Велосипеды</h2>
-        <ul class="bicycles__links">
-          <li>
-            <a href="#" class="bicycles__link">Шоссе</a>
-          </li>
-          <li>
-            <a href="#" class="bicycles__link">Грэвел</a>
-          </li>
-          <li>
-            <a href="#" class="bicycles__link">ТТ</a>
-          </li>
-        </ul>
+        <nav>
+          <ul class="bicycles__links">
+            <li>
+              <a href="#" class="bicycles__link bicycles__link_activ">Шоссе</a>
+            </li>
+            <li>
+              <a href="#" class="bicycles__link">Грэвел</a>
+            </li>
+            <li>
+              <a href="#" class="bicycles__link">ТТ</a>
+            </li>
+          </ul>
+        </nav>
         <select class="bicycles__select">
           <option class="bicycles__option">Шоссе</option>
           <option class="bicycles__option">Грэвел</option>
@@ -94,23 +98,24 @@
       <div class="bicycles__list">
         <figure class="bicycles__container">
           <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
-            target="_blank"><img src="./images/bicycles/cervelo-caledonia.jpg" alt="Велосипед Червел Каледония"
+            target="_blank"><img src="./images/bicycles-Cervelo-Caledonia-5.jpg" alt="Велосипед Червел Каледония"
               class="bicycles__image"></a>
           <figcaption class="bicycles__caption">Cervelo Caledonia-5</figcaption>
         </figure>
         <figure class="bicycles__container">
           <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
-            target="_blank"><img src="./images/bicycles/cannondale-systemsix.jpg" alt="Велосипед Каннондейл"
+            target="_blank"><img src="./images/bicycles-Cannondale-Systemsix-Himod.jpg" alt="Велосипед Каннондейл"
               class="bicycles__image"></a>
           <figcaption class="bicycles__caption">Cannondale Systemsix Himod</figcaption>
         </figure>
         <figure class="bicycles__container">
           <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
-            target="_blank"><img src="./images/bicycles/trek-domane.jpg" alt="Велосипед Трек Домейн"
+            target="_blank"><img src="./images/bicycles-Trek-Domane-SL-7.jpg" alt="Велосипед Трек Домейн"
               class="bicycles__image"></a>
           <figcaption class="bicycles__caption">Trek Domane SL-7</figcaption>
         </figure>
       </div>
+      <p class="bicycles__points"><span class="bicycles__points bicycles__points_activ">.</span>..</p>
     </section>
 
     <!-- Секция Тренировки---Алла -->
@@ -127,7 +132,7 @@
           <a href="https://www.komoot.com" target="_blank" class="practices__link">Komoot</a>
         </li>
       </ul>
-      <img src="./images/practices/practices-road-forest.jpg" alt="Дорога в лесу" class="practices__image">
+      <img src="./images/practices-road-forest.jpg" alt="Дорога в лесу" class="practices__image">
     </section>
   </main>
 

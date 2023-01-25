@@ -17,7 +17,7 @@
 
 **GitHub Pages**
 
-* [Ссылка на проект в GitHub Pages](#)
+* [Ссылка на проект в GitHub Pages](https://sattturday.github.io/bikes/)
 
 **Планы на будущее**
 
