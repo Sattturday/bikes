@@ -4,8 +4,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 1.55;
-  color: #E6E6E6;
-  opacity: .7;
+  color: rgba(230, 230, 230, .7);
   grid-row: 2/3;
   grid-column: 1;
 }

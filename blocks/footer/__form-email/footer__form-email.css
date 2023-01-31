@@ -14,27 +14,23 @@
 .footer__form-email::-webkit-input-placeholder {
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
-  color: #fff;
-  opacity: 0.5;
+  color: rgba(255, 255, 255, .5);
 }
 
 .footer__form-email::-moz-placeholder {
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
-  color: #fff;
-  opacity: 0.5;
+  color: rgba(255, 255, 255, .5);
 }
 
 .footer__form-email::-ms-input-placeholder {
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
-  color: #fff;
-  opacity: 0.5;
+  color: rgba(255, 255, 255, .5);
 }
 
 .footer__form-email::placeholder {
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
-  color: #fff;
-  opacity: 0.5;
+  color: rgba(255, 255, 255, .5);
 }
